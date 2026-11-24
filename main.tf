@@ -16,6 +16,6 @@ resource "aws_instance" "web_server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "SimpleT3Micro"
+    Name = "Deploying to AWS via GitHub"
   }
 }
